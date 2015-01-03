@@ -38,7 +38,7 @@ If you wish to work with jquery-ui you can add it via gem
 gem 'jquery-ui-rails'
 ```
 
-And then include it in application.js before requiering adminlte
+And then include it in application.js before requiring adminlte
 
 
     //= require jquery-ui/core
