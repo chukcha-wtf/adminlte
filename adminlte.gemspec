@@ -9,8 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Pavlo Babenko"]
   spec.email         = ["pavlo.babenko@gmail.com"]
   spec.summary       = %q{Rails assets gem for AdminLTE bootstrap template}
-  spec.description   = %q{Longer description.}
-  spec.homepage      = ""
+  spec.description   = %q{Provides easy integration for Bootstrap admin template into Rails. 
+                          Includes plugins used on demo page.}
+  spec.homepage      = "https://github.com/chukcha-wtf/adminlte"
   spec.license       = "MIT"
 
   spec.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
