@@ -11,7 +11,7 @@
  */
 var left_side_width = 220; //Sidebar width in pixels
 
-$(function() {
+var initAdminLTE = function() {
     "use strict";
 
     //Enable sidebar toggle
@@ -133,12 +133,12 @@ $(function() {
      * iCheck plugin in.
      * You can find the documentation at http://fronteed.com/iCheck/
      */
-    $("input[type='checkbox']:not(.simple), input[type='radio']:not(.simple)").iCheck({
-        checkboxClass: 'icheckbox_minimal',
-        radioClass: 'iradio_minimal'
-    });
+    // $("input[type='checkbox']:not(.simple), input[type='radio']:not(.simple)").iCheck({
+    //     checkboxClass: 'icheckbox_minimal',
+    //     radioClass: 'iradio_minimal'
+    // });
 
-});
+}
 function fix_sidebar() {
     //Make sure the body tag has the .fixed class
     if (!$("body").hasClass("fixed")) {
@@ -1052,3 +1052,9 @@ $(window).load(function() {
         })
     }
 })(window.jQuery || window.Zepto);
+
+
+(function() {
+    initAdminLTE();
+    $(document).on('page:change', initAdminLTE)
+})(window.jQuery)
