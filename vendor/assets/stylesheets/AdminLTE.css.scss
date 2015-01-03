@@ -1,5 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
 @import url(//fonts.googleapis.com/css?family=Kaushan+Script);
+@import "font-awesome";
+@import "ionicons";
+@import "bootstrap";
+
 /*! 
  *   AdminLTE v1.2
  *   Author: AlmsaeedStudio.com
@@ -1764,7 +1768,7 @@ body > .header .logo .icon {
 }
 .box > .loading-img {
   z-index: 1020;
-  background: transparent asset-url('ajax-loader1.gif') 50% 50% no-repeat;
+  background: transparent img-url('ajax-loader1.gif') 50% 50% no-repeat;
 }
 /*
 Component: timeline
@@ -2302,7 +2306,7 @@ Component: timeline
 */
 /* ADD THIS CLASS TO THE <HTML> TAG */
 .lockscreen {
-  background: asset-url(blur-background09.jpg) repeat center center fixed;
+  background: img-url("blur-background09.jpg") repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

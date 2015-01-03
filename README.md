@@ -1,6 +1,6 @@
 # Adminlte
 
-TODO: Write a gem description
+A gem that provides easy integration for AdminLTE admin template (http://almsaeedstudio.com/AdminLTE/) into asset pipeline
 
 ## Installation
 
@@ -19,8 +19,30 @@ Or install it yourself as:
     $ gem install adminlte
 
 ## Usage
+To make this gem work for you:
 
-TODO: Write usage instructions here
+In your application.css file add
+
+    *= require AdminLTE
+
+Bootstrap js is included so for javascript add next lines
+to your application.js
+
+    //= require bootstrap
+    //= require adminlte/app
+
+### jquery-ui
+If you wish to work with jquery-ui you can add it via gem
+
+```ruby
+gem 'jquery-ui-rails'
+```
+
+And then include it in application.js before requiering adminlte
+
+
+    //= require jquery-ui/core
+
 
 ## Contributing
 
