@@ -21,27 +21,19 @@ Or install it yourself as:
 ## Usage
 To make this gem work for you:
 
-In your application.css file add
+Bootstrap is included via a dependency on the `bootstrap-saas` gem.  Add it
+and the AdminLTE theme to your application.js file:
 
-    *= require AdminLTE
+    //= require bootstrap-sprockets
+    //= require adminlte
 
-Bootstrap js is included so for javascript add next lines
-to your application.js
+In your application.css.scss file add
 
-    //= require bootstrap
-    //= require adminlte/app
+    *= require adminlte
 
-### jquery-ui
-If you wish to work with jquery-ui you can add it via gem
-
-```ruby
-gem 'jquery-ui-rails'
-```
-
-And then include it in application.js before requiring adminlte
-
-
-    //= require jquery-ui/core
+Also in your application.css.scss file add
+    @import "bootstrap-sprockets";
+    @import "bootstrap";
 
 
 ## Contributing
