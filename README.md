@@ -1,5 +1,7 @@
 # Adminlte
 
+[![Gem Version](https://badge.fury.io/rb/adminlte.svg)](http://badge.fury.io/rb/adminlte)
+
 A gem that provides easy integration for AdminLTE admin template (http://almsaeedstudio.com/AdminLTE/) into asset pipeline
 
 ## Installation
@@ -43,3 +45,9 @@ Also in your application.css.scss file add
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Credits
+
+* [AdminLTE](http://almsaeedstudio.com/AdminLTE)
+
+Thanks to [Daniel Smith](https://github.com/danielrsmith) for his updates on latest theme version.
